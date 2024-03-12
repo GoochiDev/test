@@ -24,10 +24,20 @@ class Home extends StatelessWidget {
       Icons.mail
       ), 
       label: Text('mail me'),
-    ),
-    
+    style: ButtonStyle(
+
     )
-);
+    )),
+    floatingActionButton: FloatingActionButton(
+    onPressed: () {  },
+backgroundColor: Colors.green[700],
+child: const Text('click',
+style: TextStyle(
+color: Colors.white,
+),
+),
+),
+    );
 
   }
 }
